@@ -12,14 +12,16 @@
             font-family: 'Poppins', sans-serif;
             /* background-color: #1e1e2e; */
             color: white;
-            background: linear-gradient(175deg, #ffffff, #ec3ebb); 
+            background: linear-gradient(135deg, #fdd822, #f74e00, #f97800);
             background-attachment: fixed;
         }
         .container {
             padding: 50px 15px;
+            overflow-x: hidden;
         }
         .header {
             padding: 15px 20px;
+            background-color: transparent;
             /* text-align: center; */
             font-size: 24px;
             font-weight: 600;
@@ -27,7 +29,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .footer {
-            background: #333;
+            /* background: #333; */
+            background-color: transparent;
             /* text-align: center; */
             padding: 20px;
             color: white;
@@ -49,25 +52,13 @@
         li{
             font-weight: 600;
         }
-        /* .slide h3, .slide p, .slide ul, .slide ol {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 10px;
-            border-radius: 10px;
-            display: inline-block;
-   
-            */
-            /* .slide:nth-child(1) { background: linear-gradient(135deg, #ff9a9e, #fad0c4); }
-        .slide:nth-child(2) { background: linear-gradient(135deg, #a18cd1, #fbc2eb); }
-        .slide:nth-child(3) { background: linear-gradient(135deg, #8EC5FC, #E0C3FC); }
-        .slide:nth-child(4) { background: linear-gradient(135deg, #FEE140, #FA709A); } */
-        /* .slide:nth-child(5) { background: linear-gradient(135deg, #76b852, #8DC26F); } */
     </style>
 </head>
 <body>
 
-    <div class="header bg-primary">Python-Day1 🐍</div>
+    <div class="header ">Python-Day1 🐍</div>
 
-    <div class="container">
+    <div class="container slide mt-4 bg-light">
         <h1 class="text-center mb-4 text-dark" data-aos="fade-up">🚀 Introduction to Python & Installation 🐍</h1>
         
         <div class="slide" data-aos="fade-right">
@@ -100,13 +91,19 @@
 
         <div class="slide" data-aos="fade-left">
             <h3>Writing Your First Python Program / మీ మొదటి పైథాన్ ప్రోగ్రామ్ రాయడం</h3>
-            <pre><code>print("Welcome to Python Programming!")</code></pre>
+            <code style="background-color: black;color: white;padding:5px">print("Welcome to Python Programming!")</code>
             <p>Save it as <code>first_program.py</code> and run using <code>python first_program.py</code>. / దీన్ని <code>first_program.py</code>గా సేవ్ చేసి, <code>python first_program.py</code> తో రన్ చేయండి.</p>
+        </div>
+
+        <div class="slide text-center" data-aos="zoom-in">
+            <h3>Start Your Python Journey Today! </h3>
+
+            
         </div>
 
     </div>
 
-    <div class="footer bg-primary">© 2025 telugucoder07. All rights reserved.</div>
+    <div class="footer text-light">© 2025 telugucoder07. All rights reserved.</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

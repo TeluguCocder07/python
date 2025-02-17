@@ -1,0 +1,35 @@
+Slide 1: "Why Learn Python?"
+👉 Python is beginner-friendly 🐍
+👉 Used in Web Development 🌐
+👉 Essential for Data Science 📊
+👉 Great for Automation 🤖
+👉 In-demand Skill 💼
+
+Slide 2: "Python Career Opportunities"
+🔹 Web Developer
+🔹 Data Scientist
+🔹 AI Engineer
+🔹 Automation Expert
+🔹 Cybersecurity Analyst
+
+Slide 3: "Python Basics - Hello World!"
+python
+Copy
+Edit
+print("Hello, World!")
+📌 Run this in your Python IDE or online compiler.
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+
+
+Caption for the Next Post:
+🚀 Why Should You Learn Python? 🚀
+Python is one of the most powerful and easy-to-learn programming languages. Whether you want to build websites, analyze data, or automate tasks, Python has you covered!
+💡 Comment "PYTHON" if you’re ready to start your journey!
+📌 Save this post for later & share it with your friends!
+

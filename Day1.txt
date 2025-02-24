@@ -1,26 +1,55 @@
-Slide 1: "Why Learn Python?"
-👉 Python is beginner-friendly 🐍
-👉 Used in Web Development 🌐
-👉 Essential for Data Science 📊
-👉 Great for Automation 🤖
-👉 In-demand Skill 💼
+PYTHON DAY 1
 
-Slide 2: "Python Career Opportunities"
-🔹 Web Developer
-🔹 Data Scientist
-🔹 AI Engineer
-🔹 Automation Expert
-🔹 Cybersecurity Analyst
+INTRODUCTION TO PYTHON & INSTALLATION
 
-Slide 3: "Python Basics - Hello World!"
-python
-Copy
-Edit
-print("Hello, World!")
-📌 Run this in your Python IDE or online compiler.
+Slide 1
+INTRODUCTION TO PYTHON
+
+> Python is a powerful, high-level, interpreted programming language.
+
+>> It is known for its simple syntax, making it beginner-friendly.
+
+> Used in various fields such as web development, data science, artificial intelligence, and automation.
+
+>> Let's explore Python and learn how to install it step by step!
 
 
+Slide 2
 
+CARRER OPPORTUNITIES
+
+Cybersecurity Analyst
+Automation Expert
+AI Engineer
+DATA SCIENCE
+WED DEVELOPMENT
+
+Slide 3
+
+How to Install Python?
+
+1. Download Python from python.org.
+
+Place a screenshot 
+
+2. Run the installer and check "Add Python to PATH".
+
+3. Open CMD/Terminal and type python --version to verify.
+
+
+Slide 5
+
+Writing Your First Python Program
+
+print("Welcome to Python Programming!") Save it as first_program.py and run using python first_program.py.
+
+Input :
+
+print("Welcome to Python Programming!")
+
+Output :
+
+Welcome to Python Programming!
 
 
 

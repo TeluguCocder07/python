@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +16,12 @@
             background: linear-gradient(135deg, #fdd822, #f74e00, #f97800);
             background-attachment: fixed;
         }
+
         .container {
             padding: 50px 15px;
             overflow-x: hidden;
         }
+
         .header {
             padding: 15px 20px;
             background-color: transparent;
@@ -28,6 +31,7 @@
             color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .footer {
             /* background: #333; */
             background-color: transparent;
@@ -37,6 +41,7 @@
             position: relative;
             margin-top: 30px;
         }
+
         .slide {
             padding: 30px;
             border-radius: 10px;
@@ -49,56 +54,112 @@
             background-position: center;
             overflow: hidden;
         }
-        li{
+
+        li {
             font-weight: 500;
+        }
+
+        .download-img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        code {
+            background-color: black;
+            padding: 5px;
+            color: greenyellow;
+            margin-bottom: 5px;
+        }
+        .code-as{
+           
+            color: rgb(241, 255, 47);
+            margin-bottom: 30px;
+        }
+        .codeDiv{
+            margin: 10px 0px;
+            background-color: black;
+            padding: 5px;
         }
     </style>
 </head>
+
 <body>
 
-    <div class="header ">Python-Day1 <img src="./logo.png" height="40" style="border-radius: 50%;" alt="PyhtonLogo"></div>
+    <div class="header ">Python-Day1 <img src="./logo.png" height="40" style="border-radius: 50%;" alt="PyhtonLogo">
+    </div>
 
     <div class="container slide mt-4 bg-light">
         <h1 class="text-center mb-4 text-dark" data-aos="fade-up">🚀 Introduction to Python & Installation 🐍</h1>
-        
+
         <div class="slide" data-aos="fade-right">
             <h3>What is Python? / పైథాన్ అంటే ఏమిటి?</h3>
             <ul>
-                <li>Python is a high-level, interpreted programming language. / పైథాన్ ఒక హై-లెవెల్, ఇంటర్‌ప్రెటెడ్ ప్రోగ్రామింగ్ భాష.</li>
-                <li>It is beginner-friendly and has simple syntax. / ఇది కొత్తవారికి అనుకూలంగా ఉంటుంది మరియు సరళమైన సింటాక్స్ కలిగి ఉంటుంది.</li>
-                <li>Used in Web Development, Data Science, AI, and more. / వెబ్ డెవలప్‌మెంట్, డేటా సైన్స్, AI మరియు మరిన్ని విభాగాలలో ఉపయోగిస్తారు.</li>
+                <li>Python is a high-level, interpreted programming language. / పైథాన్ ఒక హై-లెవెల్, ఇంటర్‌ప్రెటెడ్
+                    ప్రోగ్రామింగ్ భాష.</li>
+                <li>It is beginner-friendly and has simple syntax. / ఇది కొత్తవారికి అనుకూలంగా ఉంటుంది మరియు సరళమైన
+                    సింటాక్స్ కలిగి ఉంటుంది.</li>
+                <li>Used in Web Development, Data Science, AI, and more. / వెబ్ డెవలప్‌మెంట్, డేటా సైన్స్, AI మరియు
+                    మరిన్ని విభాగాలలో ఉపయోగిస్తారు.</li>
             </ul>
+        </div>
+
+        <div class="slide" data-aos= "fade-up">
+            <h2>INTRODUCTION TO PYTHON / పైథాన్ పరిచయం</h2>
+            <p><strong>Python is a powerful, high-level, interpreted programming language.</strong> / పైథాన్ ఒక శక్తివంతమైన, హై-లెవెల్, ఇంటర్‌ప్రెటెడ్ ప్రోగ్రామింగ్ భాష.</p>
+            <p><strong>It is known for its simple syntax, making it beginner-friendly.</strong> / ఇది సులభమైన వాక్యనిర్మాణాన్ని కలిగి ఉండి, ప్రారంభకులకు అనుకూలంగా ఉంటుంది.</p>
+            <p><strong>Used in various fields such as web development, data science, artificial intelligence, and automation.</strong> / వెబ్ డెవలప్‌మెంట్, డేటా సైన్స్, AI, ఆటోమేషన్ వంటి అనేక రంగాలలో ఉపయోగిస్తారు.</p>
+            <p><strong>Let's explore Python and learn how to install it step by step!</strong> / పైథాన్ గురించి తెలుసుకుందాం మరియు దాన్ని ఎలా ఇన్‌స్టాల్ చేయాలో స్టెప్ బై స్టెప్ నేర్చుకుందాం!</p>
+        
         </div>
 
         <div class="slide" data-aos="fade-left">
             <h3>Real-World Applications / నిజజీవితంలో ఉపయోగాలు</h3>
-            <ul>
-                <li>🌐 Web Development – Django, Flask / వెబ్ డెవలప్‌మెంట్ – డీజాంగో, ఫ్లాస్క్</li>
-                <li>📊 Data Science – Pandas, NumPy / డేటా సైన్స్ – పాండాస్, నంపై</li>
+            <!-- <ul>
+                <li> Web Development – Django, Flask / వెబ్ డెవలప్‌మెంట్ – డీజాంగో, ఫ్లాస్క్</li>
+                <li> Data Science – Pandas, NumPy / డేటా సైన్స్ – పాండాస్, నంపై</li>
                 <li>🤖 AI & Automation – TensorFlow, OpenCV / AI & ఆటోమేషన్ – టెన్సర్‌ఫ్లో, ఓపెన్‌సీవీ</li>
                 <li>🔒 Cybersecurity – Ethical Hacking / సైబర్‌ సెక్యూరిటీ – నైతిక హ్యాకింగ్</li>
+            </ul> -->
+            <ul class="list-group list-group-flush text-dark">
+                <li class="list-group-item">🔒Cybersecurity Analyst / సైబర్ సెక్యూరిటీ నిపుణుడు</li>
+                <li class="list-group-item">🤖Automation Expert / ఆటోమేషన్ నిపుణుడు</li>
+                <li class="list-group-item">🤖AI Engineer / AI ఇంజనీర్</li>
+                <li class="list-group-item">📊Data Science / డేటా సైన్స్ నిపుణుడు</li>
+                <li class="list-group-item">🌐Web Development / వెబ్ డెవలప్‌మెంట్ నిపుణుడు</li>
             </ul>
         </div>
 
         <div class="slide" data-aos="fade-right">
             <h3>How to Install Python? / పైథాన్‌ను ఎలా ఇన్స్టాల్ చేయాలి?</h3>
             <ol>
-                <li>Download Python from <a href="https://www.python.org/downloads/" target="_blank">python.org</a>. / పైథాన్‌ను <a href="https://www.python.org/downloads/" target="_blank">python.org</a> నుండి డౌన్‌లోడ్ చేయండి.</li>
-                <li>Run the installer and check "Add Python to PATH". / ఇన్‌స్టాలర్‌ను రన్ చేసి, "Add Python to PATH" ఎంపికను ఎనేబుల్ చేయండి.</li>
-                <li>Open CMD/Terminal and type <code>python --version</code> to verify. / కమాండ్ ప్రాంప్ట్/టెర్మినల్‌ను తెరిచి, <code>python --version</code> టైప్ చేసి వెరిఫై చేయండి.</li>
+
+                <li>Download Python from <a href="https://www.python.org/downloads/" target="_blank">python.org</a> /
+                    పైథాన్‌ను <a href="https://www.python.org/downloads/" target="_blank">python.org</a> నుండి డౌన్‌లోడ్
+                    చేయండి.</li>
+                <img src="download.png" class="download-img" alt="Download Python">
+                <li>Run the installer and check "Add Python to PATH". / ఇన్‌స్టాలర్‌ను రన్ చేసి "Add Python to PATH"
+                    ఆప్షన్‌ను సెలెక్ట్ చేయండి.</li>
+                <li>Open CMD/Terminal and type <code>python --version</code> to verify. / CMD లేదా టెర్మినల్ తెరిచి
+                    <code>python --version</code> టైప్ చేసి వెరిఫై చేయండి.</li>
             </ol>
         </div>
 
         <div class="slide" data-aos="fade-left">
             <h3>Writing Your First Python Program / మీ మొదటి పైథాన్ ప్రోగ్రామ్ రాయడం</h3>
-            <code style="background-color: black;color: white;padding:5px">print("Welcome to Python Programming!")</code>
-            <p>Save it as <code>first_program.py</code> and run using <code>python first_program.py</code>. / దీన్ని <code>first_program.py</code>గా సేవ్ చేసి, <code>python first_program.py</code> తో రన్ చేయండి.</p>
+            <div class="codeDiv">
+                <code class="mb-5 code-as"
+                    style="background-color: rgb(0, 0, 0);margin-bottom: px;padding:5px">print("Welcome to Python Programming!")</code></br>
+            </div>
+            <p>Save it as <code>first_program.py</code> and run using <code>python first_program.py</code>. / దీన్ని
+                <code>first_program.py</code>గా సేవ్ చేసి, <code>python first_program.py</code> తో రన్ చేయండి.</p>
         </div>
 
         <div class="slide text-center" data-aos="zoom-in">
             <h3>Start Your Python Journey Today! </h3>
 
-            
+
         </div>
 
     </div>
@@ -112,4 +173,5 @@
     </script>
 
 </body>
+
 </html>
